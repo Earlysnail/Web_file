@@ -1,0 +1,165 @@
+body,div,ul,li,p,form,input{
+ margin:0;
+ padding:0;
+}
+body{
+	font-family:msyh;
+	margin:0 auto;
+	font-size: 16px;
+
+}
+.top{
+	height:40px;
+	width:100%;
+	border-bottom: 5px #FF4808 solid ;
+}
+.top_add{
+	width: 1000px;
+	height:40px;
+	line-height:40px;
+	margin: 0 auto;
+	text-align: center;
+}
+.top_p_1{
+	width:100px;
+	color:#999;
+	float:left;
+}
+.top_p_2{
+	width:100px;
+	margin-left:100px;
+	color:#F00;
+	float:left;
+}
+.whole{
+	width:1000px;
+	height: 1000px;
+	border:1px #999999 solid;
+	margin:0 auto;
+
+}
+
+.top li{
+	text-align:center;
+	list-style-type:none;
+	line-height:40px;
+	float:right;
+	color:#999;
+	width:100px;
+	margin-left:10px;
+}
+.logo{	
+	height:150px;
+}
+.logo_img{
+	margin:30px 0 0 80px; 
+	width:250px;
+	float:left;
+}
+.logo_right{
+	float:right;
+	margin:50px 80px 0 0;
+	height:45px;
+}
+.input_text{
+	float:left;
+	width:400px;
+	height:38px;
+	margin-top: 1px;
+	font-size:18px;
+	padding: 0 10px;
+}
+.input_btn{
+	float:left;
+	width:100px;
+	height:44px;
+	color:#FFF;
+	font-size:18px;
+	background-color:#FF4808;
+}
+.nav{
+	border-bottom: 2px #FF4808 solid;
+	border-top: 2px #FF4808 solid;
+}
+.nav ul{
+	height: 50px;
+	line-height: 50px;
+	margin:0 20px;
+}
+.nav li{
+	width: 100px;
+	list-style-type: none;
+	float:left;
+	margin: 0 30px;
+
+}
+a{
+	font-family: "微软雅黑";
+	font-size: 22px;
+	color:#666666;
+	text-decoration: none;
+}
+a:hover{
+	color:#FF4808;
+}
+
+.ad{
+	width:560px;
+	height:300px;
+	overflow: hidden;
+	float: right;
+	margin: 0px 20px;
+}
+
+.middle{
+	height:400px;
+	width: 1000px;
+}
+
+
+.bottom{
+	height: 200px;
+	border-top: ;
+	border-top:1px #999999 solid;
+	border-bottom:1px #999999 solid;
+}
+.bottom_context{
+	height: 100px;
+	width: 400px;
+	float: right;
+	margin-top: 100px;
+	margin-right:50px ;
+	
+}
+.bottom_context p{
+	line-height: 20px;
+	height: 20px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 22px;
+	margin-bottom: 20px;
+	}
+
+.first{
+	height: 200px;
+	width: 300px;
+}
+.second
+{
+	height: 100px;
+	width: 200px;
+}
+.first .second ul
+{
+	height: 50px;
+	width:200px;
+}
+.first .second li
+{
+	height: 50px;
+	width: 100px;
+}
+.first .second ul > *
+{
+	padding:25px 50px;
+}

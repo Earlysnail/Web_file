@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+*{
+ font-size:12px;
+ font-family:Tahoma, Geneva, sans-serif;
+ }
+
+#nav a{
+ display:block;
+ width:80px;
+ }
+#nav{
+ margin:0;
+ padding:0;} 
+
+#nav li{
+ float:left;
+ text-align:center;
+ 
+ }
+ 
+#nav li a{
+ color:#FFF;
+ background:#000;
+ height:25px;
+ }
+#nav li a:hover{
+ color:#000;
+ background:#999;
+ } 
+#nav li ul{
+ list-style-type:none;
+ margin:0px;
+ padding:0px;
+ display:none;
+ }
+#nav li ul li{
+ float:none;
+ } 
+#nav li ul li a{
+ width:80px;
+ height:25px;
+ background:#333;
+ color:#90F;
+ }
+#nav li ul li a:hover{
+ background:#999;
+ color:#F00;
+ }
+#ddss{
+ position:absolute;
+ top:40px;
+ left:9px;
+ width:950px;
+ height:20px;
+ background:#CCC;
+ margin:5px 0 0 0;
+ z-index:1
+}
+.yy{clear:both;height:10px;line-height:1px;font-size:1px;} 
+#ddst{
+ position:absolute;
+ top:10px;
+ left:9px;
+ margin:5px 0 0 0;
+ z-index:2
+}
+</style>
+</head>
+
+<body>
+
+<div id="ddst">
+ <ul id="nav">
+<li onmouseover="show('nav_1');" onmouseout="hide('nav_1')" ><a href="#">一</a>
+     <ul id="nav_1">
+         <li><a href="#">1-1</a></li>
+            <li><a href="#">1-2</a></li>
+            <li><a href="#">1-3</a></li>
+        </ul>
+    </li>
+<li onmouseover="show('nav_2');" onmouseout="hide('nav_2')" ><a href="#">二</a>
+     <ul id="nav_2">
+         <li><a href="#">2-1</a></li>
+            <li><a href="#">2-2</a></li>
+            <li><a href="#">2-3</a></li>
+        </ul>
+    </li>
+<li class="yy"></li>
+ </ul>
+</div>
+ <div id="ddss">-------------------被挤走了，怎么办？？？---------------------------------
+
+</div>
+
+<script type="text/javascript">
+ function show(id){
+        document.getElementById(id).style.display='block';
+    }
+    function hide(id){
+        document.getElementById(id).style.display='none';
+    }
+</script>
+</body>
+</html>

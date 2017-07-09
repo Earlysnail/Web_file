@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+body,div,ul{
+	margin:0;
+	padding:0;
+	
+}
+	
+	
+#nav {
+	background-color: #CCC;
+	height: 35px;
+	width: 960px;
+	margin-top: 30px;
+	margin:0 auto;
+}
+
+.menu ul{
+	width:960px;
+	height:35px
+}
+
+
+.menu ul li{
+	background-color:#CF9;
+	line-height:35px;
+	padding:0 10px;
+	float:left;
+	list-style:none;
+}
+.menu ul ul {visibility:hidden;position:absolute;left:85px;top:35px;} 
+.menu ul ul li{
+	width:120px;}
+.menu ul li:hover ul{
+	visibility:visible;}
+	
+
+a{
+	font-size:32px;
+}
+
+.menu ul li a{
+	color:#333;
+	text-decoration:none;
+}
+
+.menu ul li a:hover{
+	color:#fff;
+	text-decoration:underline;
+	background-color:#off;
+}

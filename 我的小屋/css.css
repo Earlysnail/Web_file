@@ -1,0 +1,260 @@
+body,div,p,h1{
+	margin:0;
+	padding:0;}
+body{
+	height:1000px;
+	width:1000px;
+	margin:5% auto;
+	color:#000;
+	background-image:url(385b80d9f6f4578261de38cac928a2eb.jpg);
+	
+}
+a:hover{
+	text-decoration:underline;
+}
+
+	
+	
+#top{
+	height:50px;
+	border:1px solid #06F;
+	background-color:#999;
+}
+	
+#top .top_left{
+	width:30%;
+	height:50px;
+	float:left;
+	text-align:center;
+	font-size:36px;
+}
+#top .top_right{
+	width:70%;
+	height:50px;
+	font-size:16px;
+	float:left;
+}
+#top .top_right ul{
+	height:50px;
+	margin:0;
+	padding:0 20px 0 0;
+
+}
+
+#top .top_right ul ul li{
+	width:120px;
+	background-color:#666;
+	text-decoration:underline;
+	border-radius:0px 20px 0px 20px;
+}
+#top .top_right ul li:hover ul{
+	opacity:1;
+	transition:opacity 0.1s ease-in-out,transform 0.5s ease-in-out;
+	transform:scaleY(1);
+	z-index:100;
+	
+}
+#top .top_right ul li ul{
+	width:100px;
+	height:200px;
+	float:left;
+	position:absolute;
+
+	top:50px;
+	right:-20px;
+	opacity:0;
+	transform:scaleY(0);
+	transform-origin:0 0;
+	transition: transform 0.1s linear;
+}
+#top .top_right ul li{
+	width:120px;
+	height:16px;
+	list-style:none;
+	text-align:center;
+	float:right;
+	margin:0 0 0 3px;
+	padding:20px 0 14px 0px;
+	position:relative;
+	border-right:1px solid #000;
+	border-radius:0px 20px 0px 20px;
+	
+}
+#top .top_right li:hover{
+	background-color:#666;
+	color:#FFF;
+	border-radius:0px 20px 0px 20px;
+}
+
+#top .top_right li li:hover{
+	background-color:#999;
+	color:#60C;
+	border-radius:0px 20px 0px 20px;
+	font-style:oblique; 
+}
+	
+#nav{
+	position:relative;
+	margin:0 auto;
+	height:280px;
+	color:#000;
+	display:block;
+	text-align:center;
+	-webkit-filter:grayscale(50%);
+	background-size:100% 280px;
+	
+}
+
+
+#bodynum_1{
+	width:100%;
+	height:280px;
+	text-align:center;
+	background-color:rgba(255,255,255,0.5);
+	background-size:100% 280px;
+}
+#bodynum_1 p{
+	color:#000;
+}
+#bodynum_1 .body_left{
+	width:40%;
+	float:left;
+	text-align:right;
+
+}
+#bodynum_1 li{
+	list-style:none;
+	height:20px;
+}
+	
+#bodynum_1 .body_middle{
+	width:20%;
+	float:left;
+}
+#bodynum_1 .body_middle img{
+	margin:10px 10px 10px 30px;
+	height:auto;
+	width:auto;
+	max-height:30%;
+	max-width:30%;
+	-webkit-filter:grayscale(100%);
+}
+#bodynum_1 .body_middle img:hover{
+	-webkit-filter:grayscale(50%);
+
+}
+
+#bodynum_1 .body_right{
+	width:40%;
+	float:left;
+	text-align:left;
+}
+
+#bodynum_2{
+	width:100%;
+	height:350px;
+	text-align:center;
+	position:relative;
+	background-color:rgba(255,255,255,0.1);
+
+}
+#center{
+	float:right;
+	width:450px;
+	height:130px;
+}
+
+.img{
+	width:100px;
+	height:130px;
+	margin:0 0 0 0px;
+	background-color:#0C6;
+	float:left;
+	overflow:hidden;
+	border:5px solid #FFF;
+	
+}
+.img img{
+	width:100px;
+	-webkit-filter:grayscale(80%);
+}
+	
+
+.last_left{
+	width:200px;
+	height:250px;
+	float:left;
+}
+.last_left img{
+	width:200px;
+	height:250px;
+	position:absolute;
+	bottom:20px;
+	left:30px;
+	border:10px solid #fff;
+	box-sizing:border-box;
+	box-shadow:4px 4px 3px rgba(0,0,0,0.2);
+	transform-origin:center 250px;
+	transform:translate(0,0);
+	transition:transform 0.5s ease-in-out;
+	z-index:100;
+}
+.last_left img:first-child{
+	transform:rotate(5deg);
+}
+.last_left img:last-child{
+	transform:rotate(-5deg);
+}
+.last_left:hover img:first-child{
+	transform:translate(402px,0px);
+	transition:transform 0.5s ease-in-out;
+	z-index:100;
+
+}
+.last_left:hover img:last-child{
+	transform:translate(201px,0px);
+	transition:transform 0.5s ease-in-out;
+	z-index:100;
+
+}
+.last_center{
+	position:absolute;
+	left:300px;
+	bottom:20px;
+	width:400px;
+	height:250px;
+	background-image:url(u=2355168325,3149945661&fm=21&gp=0.jpg);
+	background-size:100%;
+}
+
+.poetry1{
+	position:absolute;
+	font-size:30px;
+	top:20px;
+	color:#000;
+	left:130px;
+	width:20px;
+	height:100px;
+}
+
+
+.poetry2{
+	position:absolute;
+	font-size:30px;
+	top:70px;
+	color:#000;
+	left:200px;
+	width:20px;
+	height:100px;
+}
+.nav_right{
+	width:100%;
+	height:280px;
+	float:right;
+	background-image:url(../%E7%BD%91%E9%A1%B5/25542007.jpg);
+	background-size:100% 100%;
+}
+.nav_right:hover{
+	opacity:0;
+}
+

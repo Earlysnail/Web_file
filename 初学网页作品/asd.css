@@ -1,0 +1,60 @@
+@charset "gb2312";
+*{margin:0;padding:0;list-style:none;}
+.c_subNav{width:200px;}
+.c_subNav a{text-decoration:none;color:#333;}
+
+.c_subNav ul ul{position:absolute;visibility:hidden;right:-150px;top:-1px;}
+.c_subNav li{border-bottom:1px solid #ccc;position:relative;width:100%;}
+
+.c_subNav li .option{display:block;line-height:15px;padding:5px 5px 5px 25px;cursor:pointer;font:12px Verdana;}
+.c_subNav li .option:hover{color:#f60;background-color:#ffa;}
+.c_subNav .li:hover ul{visibility:visible;}
+.c_subNav .li:hover ul ul{visibility:hidden;}
+.c_subNav .li:hover ul{border:1px solid #ccc;border-width:1px 2px 2px 1px;width:150px;background:#fff;padding:1px;}
+.c_subNav .li:hover li{border-bottom:none;}
+.c_subNav .li:hover li .option{padding:2px 5px;background:transparent;}
+.c_subNav .li:hover li .option:hover{background:#0096ff;color:#fff;}
+.c_subNav .li:hover li .option:hover span{background-position:right -30px;}
+.c_subNav .li:hover .li:hover ul{visibility:visible;left:145px;top:-2px;}
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+<title>无标题文档</title>
+
+<link href="asd.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class="c_subNav">
+<ul>
+	<li class="li">
+			<a href="#nogo" class="option"><span>个人信息查询</span></a>
+			<ul>
+				<li class="li">
+					<a href="#nogo"  class="option"><span>个人资料</span></a>
+					<ul>
+						<li class="li"><a href="" target="_new"  class="option">登录官网</a></li>
+						<li class="li"><a href=""  class="option">添加数据</a></li>
+					</ul>
+				</li>
+                
+				<li class="li">
+<!--[if IE 6]><a class="li" href="#nogo"><table><tr><td><![endif]-->
+					<a href="#nogo"  class="option"><span>考试成绩查询</span></a>
+					<ul>
+							<li class="li"><a href="#nogo"  class="option">学分绩资料</a></li>
+							<li class="li"><a href="#nogo" class="option">总成绩资料</a></li>
+							<li class="li"><a href="#nogo"  class="option">成绩计算说明</a></li>
+					</ul>
+
+				</li>
+                
+				<li class="li">
+					<a href="#nogo"  class="option">选课管理</a>
+				</li>
+			</ul>
+	</li>
+</ul>
+</div>

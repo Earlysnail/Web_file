@@ -1,0 +1,17 @@
+1.应用css样式的三种方法：1.在html标签中使用。
+			 2.在style标签中定义内部样式<style type="text/css">...</style>
+			 3.通过link标签引入外部样式<link href="../我的班级/new.css" rel="stylesheet" type="text/css" />
+
+2.css属性：css模型盒：margin边界，border边框，padding内边界，height  width大小，background背景
+	   css定位：position,float clear,overflow.
+	   css单位：绝对长度，相对长度em ex px,百分比长度，颜色单位，url单位
+	   css样式优先级：越近优先级越大，ID=100 类=10 标签=1
+	   css类型
+
+3.css样式：文本样式；Font-family Font-size Font-style line-height Text-decorration Font-weight Font-variant Color
+	   背景样式；Background-color Background-image Background-repeat Background-position  Background-attachment
+	   边框样式；Style  width Color
+	   方框样式；word-spacing Letter-spacing Text-align Text-indent缩进 
+	   列表样式；List-style-type  List-style-image List-style-position
+	   定位样式； 
+	   扩展样式：Filter显示特殊效果

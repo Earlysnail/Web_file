@@ -1,0 +1,32 @@
+html { filter:Gray; -webkit-filter: grayscale(50%); }
+
+body{
+	margin:0;
+	padding:0;
+}
+
+#nav{
+	margin:0 auto;
+	width:1000px;
+	height:1000px;
+	background-image:url(385b80d9f6f4578261de38cac928a2eb.jpg);
+	-webkit-filter:grayscale(100%);
+}
+#num1{
+	margin:0 auto;
+	width:500px;
+	height:400px;
+	background-color:rgba(255,255,255,0.2);	
+}
+h1{
+	text-align:center;
+}
+
+#num1 p{
+	text-align:center;
+	opacity:1;
+	display:block;
+	position:relative;
+	top:50px;
+	font-size:36px;
+}

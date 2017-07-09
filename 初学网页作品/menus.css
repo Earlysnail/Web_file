@@ -1,0 +1,136 @@
+@charset "utf-8";
+body,ul,li{
+	margin:0;
+	padding:0;
+	font-size:24px;
+	
+
+}
+#nav{
+	width:1200px;
+	height:1000px;
+	margin:0 auto;
+	border-color:#09F;
+	border:solid;
+	display:block;
+	background-color:#0FF;
+	background-image:url(u=4054080650,1131356275&fm=21&gp=0.jpg);	
+	
+	
+
+}
+#nav1{
+	height:35px;
+	margin:0;
+	background-color:#0CC;
+	text-align:center;
+	
+
+	
+}
+#nav1 ul li{
+	list-style:none;
+	width:140px;
+	float:left;
+	text-align:center;
+	padding:5px 2px;
+	
+
+}
+
+#nav1 ul ul{
+	visibility:hidden;
+	border:1px solid #ccc;border-width:1px 2px 2px 1px;
+	
+}
+
+#nav1 .li2 ul{
+	z-index:3;
+}
+#nav1 .li2:hover ul{
+	visibility:visible;
+	background-color:#0cc;
+
+}
+
+#nav1 ul ul li{
+	float:none;
+	
+	
+}
+
+#nav1 ul li a{
+	height:34px;
+	list-style:none;
+	margin:0 10px;
+	
+
+}
+
+.logo{
+	width:600px;
+	height:200px;
+	float:left;
+	overflow:hidden;
+	margin:35px 0 0 50px;
+	
+	
+	
+}
+
+.top0{
+	height:34px;
+	width:auto;
+	margin:35px 0 0 50px;
+	float:right;
+	
+
+	
+}
+.top0 ul li{
+	float:left;
+	list-style:none;
+	margin:1px 10px 1px 0;
+	
+
+}
+.top1{
+	width:auto;
+	height:250px;
+	display:block;
+	
+
+	
+}
+
+.picture{
+	width:auto;
+	height:auto;
+	margin:0 auto;
+	overflow:hidden;
+	
+
+	
+}
+
+*{margin:0;padding:0;list-style:none;}
+.c_subNav{width:200px; position:absolute;}
+.c_subNav a{text-decoration:none;color:#333;}
+/*.c_subNav a:hover{color:#f60;}*/
+.c_subNav ul ul{position:absolute;visibility:hidden;right:-150px;top:-1px;}
+.c_subNav li{border-bottom:1px solid #ccc;position:relative;/*_position:static;*/float:left;width:100%;}
+/*.c_subNav a.li{position:relative;}*/
+.c_subNav li .option{display:block;line-height:15px;padding:5px 5px 5px 25px;/*background:no-repeat 5px 4px;*/cursor:pointer;font:12px Verdana;/*zoom:1;) no-repeat;*/}
+.c_subNav li .option:hover{color:#f60;background-color:#ffa;}
+.c_subNav li .option span{/*display:block;*/padding-right:15px;/*background:url(http://www.zzsky.cn/effect/images/201010250115_ico.gif) no-repeat right 0;*/}
+/*.c_subNav li .option:hover span{background-position:right -15px;}*/
+/*.c_subNav .li:hover{z-index:2;background:transparent;}*/
+.c_subNav .li:hover ul{visibility:visible;}
+.c_subNav .li:hover ul ul{visibility:hidden;}
+.c_subNav .li:hover ul{border:1px solid #ccc;border-width:1px 2px 2px 1px;width:150px;background:#fff;padding:1px;}
+.c_subNav .li:hover li{border-bottom:none;}
+.c_subNav .li:hover li .option{padding:2px 5px;background:transparent;}
+.c_subNav .li:hover li .option:hover{background:#0096ff;color:#fff;}
+.c_subNav .li:hover li .option:hover span{background-position:right -30px;}
+.c_subNav .li:hover .li:hover ul{visibility:visible;left:145px;top:-2px;}
+

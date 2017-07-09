@@ -1,0 +1,729 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>物联网4班</title>
+<embed src="森西 - Lost Love.mp3" hidden="true" autostart="true" loop="-1">
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+<!--
+
+#nav li
+{
+  float"left;
+  margin-left:30px;
+}
+#nav span{display:none;}
+#nav a
+{
+	font-size:14px;
+	text-decoration:none;
+    diaplay:block;
+    font-weight:bold;
+    color"#096;
+}
+#nav a:hover
+{top:2px;
+left:2px;
+font-size:18px;
+position:relative;
+color:#009;
+}
+#nav a:hover span
+{
+	display:block;
+	top:-2px;
+	left:-2px;
+	position:absolute;
+	color:
+	#999;
+
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+li{
+	list-style-type:none;
+	margin:0;
+	padding:0;}
+a{
+	text-decoration:none;
+	color:#000;}
+
+/*---------------------按钮-----------------------------*/
+.login_putin ul li input{
+	margin: 0;
+	width:50%;
+	padding: 1em 2em 1em 5.4em;
+	-webkit-border-radius:.3em;
+	-moz-border-radius: .3em;
+	border: 1px solid #999;
+}
+
+.login_btn{
+	width:200px;
+	margin:5px auto 0 auto;
+}
+
+.login_btn input{
+	width:99%;
+	margin:0;
+	padding:.1.3em 0;
+	-webkit-border-radius:.2em;
+	-moz-border-radius: .2em;
+	border:#1263be solid 1px;
+	background:#1b85fd;
+	color:#FFF;
+	font-size:17px;
+	font-weight:bolder;
+	letter-spacing:1em;
+}
+
+.login_btn input:hover{
+	background:#1263be;
+	}
+body, ul, li, p {
+ margin: 0;
+ padding: 0;
+}
+ul{
+ list-style-type:none;
+}
+body {
+ font-family:"Times New Roman", Times, serif;
+}
+#box {
+	position: relative;
+	width: 1078px;
+	height: 467px;
+	margin: 10px auto;
+}
+#box .imgList{
+ position:relative;
+ width:1078px;
+ height:467px;
+ overflow:hidden;
+}
+#box .imgList li{
+ position:absolute;
+ top:0;
+ left:0;
+ width:590px;
+ height:270px;
+}
+#box .countNum{
+ position:absolute;
+ right:0;
+ bottom:5px;
+}
+#box .countNum li{
+ width:20px;
+ height:20px;
+ float:left;
+ color:#fff;
+ border-radius:20px;
+ background:#00000000;
+ text-align:center;
+ margin-right:5px;
+ cursor:pointer;
+ opacity:0.7;
+ filter:alpha(opacity=70);
+}
+#box .countNum li.current{
+ background:#f60;
+ font-weight:bold;
+ opacity:1;
+ filter:alpha(opacity=70);
+}
+
+
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background:url(file:///C|/Users/22345/Desktop/UI/385b80d9f6f4578261de38cac928a2eb.jpg);
+	margin: 0;
+	padding: 0;
+	color: #0f0f0f;
+}
+
+/* ~~ 元素/标签选择器 ~~ */
+ul, ol, dl { /* 由于浏览器之间的差异，最佳做法是在列表中将填充和边距都设置为零。为了保持一致，您可以在此处指定需要的数值，也可以在列表所包含的列表项（LI、DT 和 DD）中指定需要的数值。请注意，除非编写一个更为具体的选择器，否则您在此处进行的设置将会层叠到 .nav 列表。 */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* 删除上边距可以解决边距会超出其包含的 div 的问题。剩余的下边距可以使 div 与后面的任何元素保持一定距离。 */
+	padding-right: 15px;
+	padding-left: 15px; /* 向 div 内的元素侧边（而不是 div 自身）添加填充可避免使用任何方框模型数学。此外，也可将具有侧边填充的嵌套 div 用作替代方法。 */
+}
+a img { /* 此选择器将删除某些浏览器中显示在图像周围的默认蓝色边框（当该图像包含在链接中时） */
+	border: none;
+}
+
+/* ~~ 站点链接的样式必须保持此顺序，包括用于创建悬停效果的选择器组在内。 ~~ */
+a:link {
+	color:#414958;
+
+}
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* 此组选择器将为键盘导航者提供与鼠标使用者相同的悬停体验。 */
+	text-decoration: none;
+}
+
+/* ~~ 此容器包含所有其它 div，并依百分比设定其宽度 ~~ */
+.container {
+	width: 80%;
+	max-width: 1260px;/* 可能需要最大宽度，以防止此布局在大型显示器上过宽。这将使行长度更便于阅读。IE6 不遵循此声明。 */
+	min-width: 780px;/* 可能需要最小宽度，以防止此布局过窄。这将使侧面列中的行长度更便于阅读。IE6 不遵循此声明。 */
+	background-color:#03a9f4;
+	margin: 0 auto; /* 侧边的自动值与宽度结合使用，可以将布局居中对齐。如果将 .container 宽度设置为 100%，则不需要此设置。 */
+}
+
+/* ~~ 标题未指定宽度。它将扩展到布局的完整宽度。标题包含一个图像占位符，该占位符应替换为您自己的链接徽标 ~~ */
+.header {
+	background-color: #FFF;
+}
+
+
+.sidebar1 {
+	float: left;
+	width: 20%;
+	border:"2px"
+	bordor-color:"#fff"
+	background-color: #03a9f;
+	padding-bottom: 10px;
+}
+.content {
+	padding: 20px 0;
+	width: 80%;
+	float: left;
+}
+
+/* ~~ 此分组的选择器为 .content 区域中的列表提供了空间 ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* 此填充反映上述标题和段落规则中的右填充。填充放置于下方可用于间隔列表中其它元素，置于左侧可用于创建缩进。您可以根据需要进行调整。 */
+}
+
+/* ~~ 导航列表样式（如果选择使用预先创建的 Spry 等弹出菜单，则可以删除此样式） ~~ */
+ul.nav {
+	list-style: none; /* 这将删除列表标记 */
+	border-top: 1px solid #fff; /* 这将为链接创建上边框 – 使用下边框将所有其它项放置在 LI 中 */
+	margin-bottom: 15px; /* 这将在下面内容的导航之间创建间距 */
+}
+ul.nav li {
+	border-bottom: 1px solid #FFF; /* 这将创建按钮间隔 */
+}
+ul.nav a, ul.nav a:visited { /* 对这些选择器进行分组可确保链接即使在访问之后也能保持其按钮外观 */
+	padding: 5px 5px 5px 15px;
+	display: block; /* 这将为链接赋予块属性，使其填满包含它的整个 LI。这样，整个区域都可以响应鼠标单击操作。 */
+	text-decoration: none;
+	background-color: #03a9f4;
+	color: #000;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* 这将更改鼠标和键盘导航的背景和文本颜色 */
+	background-color: #6F7D94;
+	color: #FFF;
+}
+
+/* ~~ 脚注 ~~ */
+.footer {
+	padding: 10px 0;
+	position: relative;/* 这可以使 IE6 hasLayout 以正确方式进行清除 */
+	clear: both; /* 此清除属性强制 .container 了解列的结束位置以及包含列的位置 */
+}
+
+/* ~~ 其它浮动/清除类 ~~ */
+.fltrt {  /* 此类可用于在页面中使元素向右浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* 此类可用于在页面中使元素向左浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* 如果从 #container 中删除或移出了 #footer，则可以将此类放置在 <br /> 或空 div 中，作为 #container 内最后一个浮动 div 之后的最终元素 */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+*{margin:0;padding:0;list-style:none;}
+.c_subNav{width:200px;}
+.c_subNav table{width:100%;border-collapse:collapse;}
+.c_subNav a{text-decoration:none;color:#333;}
+.c_subNav a:hover{color:#f60;}
+.c_subNav ul ul{position:absolute;visibility:hidden;right:-150px;top:-1px;}
+.c_subNav li{border-bottom:1px solid #ccc;position:relative;_position:static;float:left;width:100%;}
+.c_subNav a.li{position:relative;}
+.c_subNav li .option{display:block;line-height:15px;padding:5px 5px 5px 25px;background:no-repeat 5px 4px;cursor:pointer;font:12px Verdana;zoom:1;) no-repeat;}
+.c_subNav li .option:hover{color:#f60;background-color:#ffa;}
+.c_subNav li .option span{display:block;padding-right:15px;background:url(http://www.zzsky.cn/effect/images/201010250115_ico.gif) no-repeat right 0;}
+.c_subNav li .option:hover span{background-position:right -15px;}
+.c_subNav .li:hover{z-index:2;background:transparent;}
+.c_subNav .li:hover ul{visibility:visible;}
+.c_subNav .li:hover ul ul{visibility:hidden;}
+.c_subNav .li:hover ul{border:1px solid #ccc;border-width:1px 2px 2px 1px;width:150px;background:#fff;padding:1px;}
+.c_subNav .li:hover li{border-bottom:none;}
+.c_subNav .li:hover li .option{padding:2px 5px;background:transparent;}
+.c_subNav .li:hover li .option:hover{background:#0096ff;color:#fff;}
+.c_subNav .li:hover li .option:hover span{background-position:right -30px;}
+.c_subNav .li:hover .li:hover ul{visibility:visible;left:145px;top:-2px;}
+/*---图标差异---*/
+.c_subNav .charges .option{background-position:4px -45px;}
+.c_subNav .biz .option{background-position:4px -70px;}
+.c_subNav .change .option{background-position:4px -95px;}
+.c_subNav .score .option{background-position:4px -120px;}
+.c_subNav .server .option{background-position:4px -145px;}
+.c_subNav .edit .option{background-position:4px -170px;}
+.c_subNav .sms .option{background-position:4px -195px;}
+-->
+</style>
+<script>
+<!--
+ 
+today=new Date();
+function initArray(){
+this.length=initArray.arguments.length
+for(var i=0;i<this.length;i++)
+this[i+1]=initArray.arguments[i] }
+var d=new initArray(
+"星期日",
+"星期一",
+"星期二",
+"星期三",
+"星期四",
+"星期五",
+"星期六");
+document.write(
+"<font color=#fff style='font-size:9pt;align:center;font-family: 宋体'> ",
+"今天是：",
+today.getFullYear(),"年",
+today.getMonth()+1,"月",
+today.getDate(),"日 ",
+d[today.getDay()+1]," 欢迎访问本站！",
+"</font>" ); 
+
+function MM_swapImgResore(){
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++)
+  x.src=x.oSrc;
+}
+
+function MM_preloadImage(){ //v3.0
+var d=document;if(d.images){if(!d_MM_p) d.MM_p=new Array();
+  var i,j=d.MM_p.length,a=MM_preloadImage.arguments; for(i=0;i<a.length;i++)
+  if(a[i].indexOf("#")!=0)
+  {
+	  d.MM_p[j]=new Image;d.MM_p[j++].src=a[i];
+	  }
+}
+}
+function MM_findObj(n,d)
+{  //v4.01
+ var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length)
+ {
+	 d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+	 if(!(x=d[n])&&d.all)x=d.all[n]; for(i=0;!x&&i<d.forms.length;i++)
+	 x=d.forms[i][n];
+	 for(i=0;!x&&d.layers&&i<d.layers.length;i++)x=MM_findObj(n,d.layers[i].document);
+	 if(!x&&d.getElementById)x=d.getElementById(n);return x;
+}
+
+function MM_swapImage()
+{ //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments;document.MM_sr=new Array;
+  for(i=0;i<(a.length-2);i+=3)
+  if((x=MM_findObj(a[i]))!=null){document.MM_str[j++]=x;
+  if(!x.oSrc)
+  x.oSrc=x.src;x.src=a[i+2];}
+
+}
+
+
+function chkvalue(txt)
+{
+	if(txt.value=="") alert("您还未填写内容！");
+}
+
+ function runImg(){}
+ runImg.prototype={
+  bigbox:null,//最外层容器
+  boxul:null,//子容器ul
+  imglist:null,//子容器img
+  numlist:null,//子容器countNum
+  prov:0,//上次显示项
+  index:0,//当前显示项
+  timer:null,//控制图片转变效果
+  play:null,//控制自动播放
+  imgurl:[],//存放图片
+  count:0,//存放的个数
+  $:function(obj)
+  {
+   if(typeof(obj)=="string")
+   {
+    if(obj.indexOf("#")>=0)
+    {
+     obj=obj.replace("#","");
+     if(document.getElementById(obj))
+     {
+      return document.getElementById(obj);
+     }
+     else
+     {
+      alert("没有容器"+obj);
+      return null;
+     } 
+    }
+    else
+    {
+     return document.createElement(obj);
+    }
+   }
+   else
+   {
+    return obj;
+   }
+  },
+  //初始化
+  info:function(id)
+  {
+   this.count=this.count<=5?this.count:5;
+   this.bigbox=this.$(id);
+   for(var i=0;i<2;i++)
+   {
+    var ul=this.$("ul");
+    for(var j=1;j<=this.count;j++)
+    {
+     var li=this.$("li");
+     li.innerHTML=i==0?this.imgurl[j-1]:j;
+     ul.appendChild(li);
+    }
+    this.bigbox.appendChild(ul);
+   }
+   this.boxul=this.bigbox.getElementsByTagName("ul");
+   this.boxul[0].className="imgList";
+   this.boxul[1].className="countNum";
+   this.imglist=this.boxul[0].getElementsByTagName("li");
+   this.numlist=this.boxul[1].getElementsByTagName("li");
+   for(var j=0;j<this.imglist.length;j++)
+   {
+    this.alpha(j,0);
+   }
+   this.alpha(0,100);
+   this.numlist[0].className="current";
+  },
+  //封装程序入口
+  action:function(id)
+  {
+   this.autoplay();
+   this.mouseoverout(this.bigbox,this.numlist);
+  },
+  //图片切换效果
+  imgshow:function(num,numlist,imglist)
+  {
+   this.index=num;
+   var pralpha=100;
+   var inalpha=0;
+   for(var i=0;i<numlist.length;i++)
+   {
+    numlist[i].className="";
+   }
+   numlist[this.index].className="current";
+   clearInterval(this.timer);
+                        for(var j=0;j<this.imglist.length;j++)
+          {
+           this.alpha(j,0);
+          }
+   this.alpha(this.prov,100);
+   this.alpha(this.index,0);
+   var $this=this;
+   //利用透明度来实现切换图片
+   this.timer=setInterval(function(){
+    inalpha+=2;
+    pralpha-=2;
+    if(inalpha>100){inalpha=100};//不能大于100
+    if(pralpha<0){pralpha=100};
+    //为兼容性赋样式
+    $this.alpha($this.prov,pralpha);
+    $this.alpha($this.index,inalpha);
+    if(inalpha==100&&pralpha==0){clearInterval($this.timer)};//当等于100的时候就切换完成了
+   },20)//经测试20是我认为最合适的值
+  },
+  //设置透明度
+  alpha:function(i,opacity){
+   this.imglist[i].style.opacity=opacity/100;
+   this.imglist[i].style.filter="alpha(opacity="+opacity+")";
+  },
+  //自动播放
+  autoplay:function(){
+   var $this=this;
+   this.play=setInterval(function(){
+    $this.prov=$this.index;
+    $this.index++;
+    if($this.index>$this.imglist.length-1){$this.index=0};
+    $this.imgshow($this.index,$this.numlist,$this.imglist);
+    },2000)
+  },
+  //处理鼠标事件
+  mouseoverout:function(box,numlist)
+  {
+   var $this=this;
+   box.onmouseover=function()
+   {
+    clearInterval($this.play);
+   }
+   box.onmouseout=function()
+   {
+    $this.autoplay($this.index);
+   }
+   for(var i=0;i<numlist.length;i++)
+   {
+    numlist[i].index=i;
+    numlist[i].onmouseover=function(){
+     $this.prov=$this.index;
+     $this.imgshow(this.index,$this.numlist,$this.imglist);
+    }
+   }
+  }
+ }
+ window.onload=function(){
+  var runimg=new runImg();
+  runimg.count=5;
+  runimg.imgurl=[
+  "<img src=\"http://www.1tong.com/uploads/wallpaper/landscapes/342-5-1920x1080.jpg\"/>",
+  "<img src=\"http://pic.dd008.com/source/201510/20/f1f9aa8eb8.jpg\"/>",
+  "<img src=\"http://image55.360doc.com/DownloadImg/2012/09/1618/26871610_20.jpg\"/>",
+  "<img src=\"http://p1.qhimg.com/t015a4dad65f7c13633.png\"/>",
+  "<img src=\"http://img3.iqilu.com/data/attachment/forum/201308/21/203242sgjy4bbdtpeg11sd.jpg\"/>"];
+  runimg.info("#box");
+  runimg.action("#box");
+ }
+ var msg="  每一次， 都在徘徊中旋转。 每一次， 都能危难中逃跑。 阳光下总有影子的存在， 人是否只能在陆地上奔跑。 亲爱的自己， 有没有心累。 挣扎的故事， 有没有解答。 你是不是， 已经无力再反驳。Every time, all around in the rotation. Every time, can be in distress to escape. There is always a shadow of the presence of the sun, people can only run on the land. Dear myself, there is no heart tired. The story of the struggle, there is no answer. You are not, have been unable to refute."
+var len=msg.length
+var seq=0
+var e=1
+var speed=200
+function type()
+{
+a.innerText=msg.substring(0,seq)
+if(seq==len){seq=msg.length}
+else
+seq++
+setTimeout("type()",speed)
+}
+
+-->
+</script>
+
+<!--[if lte IE 7]>
+<style>
+.content { margin-right: -1px; } /* 此 1px 负边距可以放置在此布局中的任何列中，且具有相同的校正效果。 */
+ul.nav a { zoom: 1; }  /* 缩放属性将为 IE 提供其需要的 hasLayout 触发器，用于校正链接之间的额外空白 */
+</style>
+
+
+
+
+
+<![endif]--></head>
+
+<body onload=type()>
+
+ <blockquote>
+   <p align="right"><font size="-1" color="#fff"><a href="http://www.baidu.com" target="new">设计理念</a>－<a href="http://www.baidu.com" target="new">设计元素</a>－<a href="http://www.baidu.com" target="new">设计概念</a>－<a href="http://www.baidu.com" target="new">联系作者</a></font></p>
+ </blockquote>
+ <p><a href="#"><img src="file:///C|/Users/22345/Desktop/UI/logo.png" alt="徽标" name="Insert_logo" width="45%" height="88" id="Insert_logo" ; display:block;" /></a></p>
+ 
+<div id="nav">
+  <ul>
+  <li align="center"><a href="" ><font color="#fff">班级展示&nbsp&nbsp&nbsp&nbsp </font><span>班级展示</span></a>
+   <a href="http://www.tust.edu.cn/history/xxgk/kdjj.htm" target="_new"><font color="#fff">科大介绍&nbsp&nbsp&nbsp&nbsp </font><span>科大介绍</span></a>
+     <a href="http://it.ithome.com/" target="_new" ><font color="#fff">IT咨询&nbsp&nbsp&nbsp&nbsp </font><span>IT咨询</span></a>
+       <a href="" ><font color="#fff">项目展示&nbsp&nbsp&nbsp&nbsp </font><span>项目展示</span></a>
+  <a href="http://pan.tust.edu.cn/" target="_new" ><font color="#fff">科大云盘&nbsp&nbsp&nbsp&nbsp </font><span>科大云盘</span></a>
+  <a href="http://www.5lian.cn/" target="_new" ><font color="#fff">物联资讯&nbsp&nbsp&nbsp&nbsp </font><span>物联资讯</span></a>
+  <a href="" ><font color="#fff">考试模块&nbsp&nbsp&nbsp&nbsp </font><span>考试模块</span></a>
+  <a href="" ><font color="#fff">关于我们&nbsp&nbsp&nbsp&nbsp </font><span>关于我们</span></a>
+  </ul>
+</div>
+<div class="container">
+  <div class="header">
+   
+    <!-- end .header --></div>
+  <div id="box"></div>
+  <div class="sidebar1">
+
+  <div class="c_subNav">
+<ul>
+<li class="li charges">
+<!--[if IE 6]><a class="li" href="#nogo"><table><tr><td><![endif]-->
+<a href="#nogo" _fcksavedurl="#nogo" class="option"><span>个人信息查询</span></a>
+<ul>
+<li class="li">
+<!--[if IE 6]><a class="li" href="#nogo"><table><tr><td><![endif]-->
+<a href="#nogo" _fcksavedurl="#nogo" class="option"><span>个人资料</span></a>
+<ul>
+<li class="li"><a href="http://www.tust.edu.cn" target="_new" _fcksavedurl="#nogo" class="option">登录官网</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">添加数据</a></li>
+</ul>
+<!--[if IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li class="li">
+<!--[if IE 6]><a class="li" href="#nogo"><table><tr><td><![endif]-->
+<a href="#nogo" _fcksavedurl="#nogo" class="option"><span>考试成绩查询</span></a>
+<ul>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">学分绩资料</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">总成绩资料</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">成绩计算说明</a></li>
+</ul>
+<!--[if IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li class="li">
+<a href="#nogo" _fcksavedurl="#nogo" class="option">选课管理</a>
+</li>
+<ul>
+
+</ul>
+<!--[if IE 6]></td></tr></table></a><![endif]-->
+</li>
+</ul>
+<!--[if IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li class="li biz">
+<!--[if IE 6]><a class="li" href="#nogo"><table><tr><td><![endif]-->
+<a href="#nogo" _fcksavedurl="#nogo" class="option"><span>上传申请</span></a>
+<ul>
+<li class="li">
+<!--[if IE 6]><a class="li" href="#nogo"><table><tr><td><![endif]-->
+<a href="#nogo" _fcksavedurl="#nogo" class="option"><span>文件传送门</span></a>
+<ul>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">来张美图！</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">音乐大师！</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">学习视频</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">电影</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">软件游戏</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">数据资料</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">其他</a></li>
+
+</ul>
+<!--[if IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li class="li">
+<!--[if IE 6]><a class="li" href="#nogo"><table><tr><td><![endif]-->
+
+<!--[if IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li class="li">
+<!--[if IE 6]><a class="li" href="#nogo"><table><tr><td><![endif]-->
+<a href="#nogo" _fcksavedurl="#nogo" class="option"><span>新闻传送门</span></a>
+<ul>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">班级新闻</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">科大新闻</a></li>
+</ul>
+<!--[if IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li class="li">
+<a href="#nogo" _fcksavedurl="#nogo" class="option">其他</a>
+</li>
+</ul>
+<!--[if IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li class="li change">
+<!--[if IE 6]><a class="li" href="#nogo"><table><tr><td><![endif]-->
+<a href="#nogo" _fcksavedurl="#nogo" class="option"><span>网站链接</span></a>
+<ul>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">阿里巴巴矢量图库</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">ui中国</a></li>
+</ul>
+<!--[if IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li class="li score">
+<!--[if IE 6]><a class="li" href="#nogo"><table><tr><td><![endif]-->
+<a href="#nogo" _fcksavedurl="#nogo" class="option"><span>博客参考平台</span></a>
+<ul>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">Surine·阡陌</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">楼贤拓的blog</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">王凯的blog</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">乔金帅的blog</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">孙立伟的csdn</a></li>
+</ul>
+<!--[if IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li class="li server">
+<!--[if IE 6]><a class="li" href="#nogo"><table><tr><td><![endif]-->
+<a href="#nogo" _fcksavedurl="#nogo" class="option"><span>学习资源</span></a>
+<ul>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">物联网资讯</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">IT之家</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">慕课网</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">腾讯课堂</a></li>
+</ul>
+<!--[if IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li class="li edit">
+<!--[if IE 6]><a class="li" href="#nogo"><table><tr><td><![endif]-->
+<a href="#nogo" _fcksavedurl="#nogo" class="option"><span>娱乐</span></a>
+<ul>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">Qi——yi</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">ejia——TV</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">腾讯游戏平台</a></li>
+<li class="li"><a href="#nogo" _fcksavedurl="#nogo" class="option">科大云盘</a></li>
+</ul>
+<!--[if IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li class="li sms">
+<a href="#nogo" _fcksavedurl="#nogo" class="option">反馈平台</a>
+</li>
+</ul>
+</div>
+
+  <!-- end .sidebar1 --></div>
+  <div class="content">
+   <h1>
+    <script type="text/javascript">
+ var today = new Date(); //??Date
+ var date = today.getDate();//?
+ var day = today.getDay();//???
+ var month = today.getMonth()+1;//?·
+ var year = today.getFullYear();//?
+ document.write(year+"-"+month+"-"+date+"  Today·故 事 ， 简 而 不 凡");
+</script>
+   </h1>
+   <div id="a"></div>
+   
+  </div>
+  <marquee id="mar" behavior="alternate" width="1080px" height="142px" behavior="slide" onmouseover=this.stop() onmouseout=this.start() scrollamount=2 scrollDelay=2 loop="-1">
+  <div class="footer">
+  &nbsp;&nbsp;<img src="ee163edef411dda517f8c0c77eb82628.jpg" alt="" width="200" height="142" />&nbsp;
+    <img src="9ca948b5190998c7e9ac1bc961f496ed.jpg" width="200" height="142" />&nbsp;
+     <img src="9de254dffe05474203e475eae16ca27d.jpg" width="200" height="142" />&nbsp;
+      <img src="311ee824bf4d0aea82f45c6fb87fa6db.jpg" width="200" height="142" />&nbsp;
+       <img src="e17d0f22dbafe1b7a76525d09629bae5.jpg" width="200" height="142" />&nbsp;
+       <img src="f5872e438bc7bd97853a10f5fef1cbfd (1).jpg" width="200" height="142" />
+       &nbsp;
+       <img src="311ee824bf4d0aea82f45c6fb87fa6db.jpg" width="200" height="142" />
+       &nbsp;
+       <img src="9ca948b5190998c7e9ac1bc961f496ed.jpg" width="200" height="142" />
+       &nbsp;
+       <img src="b3b1f1992d2f21652443fbbf5a01bdb9.jpg" width="200" height="142" />
+    <p align="center">&nbsp;
+</p>
+  <!-- end .footer --></div>
+    </marquee>
+<!-- end .container --></div>
+ <div class="footer">
+    <p align="center">  <font size="-2px" color="#fff">    版权所有© ： 天津科技大学计算机科学与信息工程学院物联网4班     联系QQ群：424132826</font>
+ </p>
+    <!-- end .footer --></div>
+<!-- end .container --></div>
+
+</body>
+</html>

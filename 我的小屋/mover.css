@@ -1,0 +1,31 @@
+.mover{
+	width:300px;
+	height:200px;
+	margin:2rem auto;
+}
+.mover > img{
+	width:200px;
+	height:300px;
+	position:absolute;
+	border:10px solid #fff;
+	box-sizing:border-box;
+	box-shadow:4px 4px 3px rgba(0,0,0,0.2);
+	transform-origin:center 400px;
+	transition:transform .7s ease;
+}
+.mover img:first-child{
+	transform:rotate(5deg);
+}
+.mover img:last-child{
+	transform:rotate(-5deg);
+}
+.mover:hover img:first-child{
+	transform:rotate(50deg);
+}
+.mover:hover img:last-child{
+	transform:rotate(-50deg);
+}
+body{
+background:#222;
+}
+

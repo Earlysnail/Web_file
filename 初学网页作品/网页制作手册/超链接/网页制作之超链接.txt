@@ -1,0 +1,29 @@
+1.路径：绝对路径：被链接文件的URL（Uniform Resourse Locator ，统一资源定位器）http://wwww.baidu.com/main.html
+	相对路径：以当前文件所在位置为起点，到被链接文件经由的路径。
+		同一文件夹：filename
+		子文件夹：subfolder/filename
+		父文件夹：../filename
+	根路径：从站点根文件夹到被链接文件经由的路径。
+		/news/wodehtml  首/代表站点跟文件夹（网站所在服务器的跟文件夹）
+2.文本超链接：<a href="5ef603a137b6df95.jpg" tabindex="1" title="我的班级" target="_blank">我的班级</a>
+  
+  图像超链接：<a href="扫雷.c" target="_blank"><img src="5ef603a137b6df95.jpg" alt="扫雷原程序" width="557" height="405" 	              /></a>
+
+  锚点链接：<p align="center"><a href="#页尾" tabindex="3">页尾</a></p>
+	    <p align="center"><img src="-1e332dd4e7211cb2.jpg" width="540" height="960" /></p>
+	    <p align="center"><a name="页尾" id="页尾"></a></p>
+
+  E-Mail链接：<p align="center">邮箱地址：<a href="mailto:893435732@qq.com">893435732@qq.com</a></p>
+
+  脚本链接：<p align="center"><a href="javascript:alert(&quot;这里是脚本链接&quot;);" tabindex="5">脚本链接</a></p>
+
+
+  空连接：<p align="center"><a href="#" tabindex="6">空连接</a></p>
+
+  下载链接：<p align="center"><a href="我的班级.zip" tabindex="7">下载链接</a></p>
+
+  图像地图链接：<p align="center"><img src="-1e332dd4e7211cb2.jpg" width="520" height="960" usemap="#我" border="0" />
+  		<map name="我" id="我">
+    		<area shape="rect" coords="285,383,396,663" href="-2e80bf997cf6c1d0.jpg" target="_blank" />
+  		</map>
+		</p>

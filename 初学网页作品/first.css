@@ -1,0 +1,151 @@
+@charset "utf-8";
+body{	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	background-color:white;
+}
+#nav {
+	padding-top:20px;
+	background-image:url(top.jpg);
+	color: #009;
+	width:1003px;
+	height:140px;
+	margin:0 auto;
+}
+
+#nav2 {
+	background-color: #CCC;
+	height:41px;
+	width: 993px;
+	margin:0 auto;
+	border-bottom: 0px;
+	padding: 0px 5px;
+		
+}
+
+body,div,ul,li{
+	margin:0;
+	padding:0;
+	
+	
+}
+	
+
+#nav2 ul{
+	width:1003px;
+	height:35px;
+	
+
+}
+
+#nav2 ul li{
+	
+	text-align:center;
+	line-height:35px;
+	padding:0;
+	float:left;
+	list-style:none;
+
+}
+a{
+	font-size:18px;
+}
+
+
+#nav3{
+	background-color:#09C;
+	width:300px;
+	height:400px;
+	position:relative;
+	margin-top:10px;
+	left:175px;
+	text-align:center;
+	font-size:24px;
+	padding:10px 0 10px 0;
+	float:left;
+}
+#nav4{
+	background-color:#0CF;
+	width:693px;
+	height:400px;
+	position:relative;
+	margin-top:10px;
+	margin-left:10px;
+	left:175px;
+	text-align:center;
+	font-size:24px;
+	padding:10px 0 10px 0;
+	float:left;
+	
+}
+
+a:link{
+color:#336601;
+text-decoration:none;
+float:left;
+width:172px;
+padding:3px 5px 0px 5px;
+}
+a:visited{
+color:#336601;
+text-decoration:none;
+float:left;
+padding:3px 5px 0px 5px;
+width:172px;
+}
+a:hover{
+color:white;
+float:left;
+padding:3px 3px 0px 20px;
+width:159px;
+text-decoration:none;
+background-color:#539D26;
+}
+a:active{
+color:white;
+float:left;
+padding:3px 3px 0px 20px;
+width:159px;
+text-decoration:none;
+background-color:#BD06B4;
+}
+
+.list{
+line-height:20px;
+text-align:center;
+padding:4px;
+font-weight:normal;
+}
+.menu1{
+width:192px;
+height:aute;
+margin:6px 4px 0px 0px;
+border:1px solid #9CDD75;
+background-color:#F1FBEC;
+color:#336601;
+padding:6px 0px 0px 0px;
+cursor:hand;
+overflow-y:hidden;
+filter:Alpha(opacity=70);
+-moz-opacity:0.7;
+display:inline;
+}
+.menu2{
+width:192px;
+height:30px;
+margin:6px 4px 0px 0px;
+background-color:#F5F5F5;
+color:#999999;
+border:1px solid #EEE8DD;
+padding:6px 0px 0px 0px;
+overflow-y:hidden;
+cursor:hand;
+
+text-align:center;
+line-height:35px;
+padding:0;
+float:left;
+list-style:none;
+display:inline;
+}

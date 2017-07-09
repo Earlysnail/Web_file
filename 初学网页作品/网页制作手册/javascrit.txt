@@ -1,0 +1,9 @@
+1.写入 HTML 输出：
+document.write("<h1>This is a heading</h1>");
+
+2.对事件作出反应
+<button type="button" onclick="alert('Welcome!')">点击这里</button>
+
+3.改变 HTML 内容
+x=document.getElementById("demo")  //查找元素
+x.innerHTML="Hello JavaScript";    //改变内容
